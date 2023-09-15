@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* HOVER CARD ANIMATION*/
+.arrow:hover .normal-arrow {
+    display: none;
+  }
+  
+  .arrow:hover .hover-arrow {
+    display: block;
+  }
+
+ 
+
+  .arrow-mobile:hover .normal-arrow-mobile {
+    display: none;
+  }
+  
+  .arrow-mobile:hover .hover-arrow-mobile {
+    display: block;
+  }

@@ -6,12 +6,12 @@ import type { AppProps } from 'next/app';
 const jetbrains = localFont({
 	src: [
 		{
-			path: '../../public/fonts/JetBrainsMono-Regular.woff2',
+			path: '../../public/fonts/GT-Haptik-Regular-2.ttf',
 			weight: '400',
 			style: 'normal',
 		},
 		{
-			path: '../../public/fonts/JetBrainsMono-Bold.woff2',
+			path: '../../public/fonts/GT-Haptik-Regular-2.ttf',
 			weight: '700',
 			style: 'normal',
 		},
@@ -22,7 +22,7 @@ const jetbrains = localFont({
 const karla = localFont({
 	src: [
 		{
-			path: '../../public/fonts/Karla-Regular.woff2',
+			path: '../../public/fonts/GT-Haptik-Regular-2.ttf',
 			weight: '400',
 			style: 'normal',
 		},
