@@ -1,12 +1,12 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Hero from '../comps/Hero';
-import AdvantagesSection from '../comps/AdvantagesSection';
-import Footer from '../comps/Footer';
-import Contact from '../comps/Contact';
-import SliderCenters from '../comps/SliderCenters';
 
 import About from '../comps/About';
+import AdvantagesSection from '../comps/AdvantagesSection';
+import Contact from '../comps/Contact';
+import Footer from '../comps/Footer';
+import Hero from '../comps/Hero';
+import SliderCenters from '../comps/SliderCenters';
 const Page: NextPage = () => {
 	return (
 		<div>

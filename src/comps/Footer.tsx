@@ -1,11 +1,11 @@
 import classnames from 'classnames';
 import Image from 'next/image';
-import Container from './Layout/Container';
-import Col from './Layout/Col';
 import Link from 'next/link';
 
+import Col from './Layout/Col';
+import Container from './Layout/Container';
+
 type ColProps = {
-	children: React.ReactNode;
 	className?: string;
 };
 
@@ -56,7 +56,7 @@ const Footer = ({ className }: ColProps) => {
 							</div>
 
 							<div className="flex gap-2 text-xs text-white">
-								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-app text-[#287DE4] cursor-pointer" viewBox="0 0 16 16">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-app text-[#287DE4] cursor-pointer" viewBox="0 0 16 16">
 									<path d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z" />
 								</svg>
 								<p className="text-white">
@@ -99,7 +99,7 @@ const Footer = ({ className }: ColProps) => {
 									</div>
 								</div>
 								<div className="flex gap-2 text-xs text-white">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-app text-[#287DE4] cursor-pointer" viewBox="0 0 16 16">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-app text-[#287DE4] cursor-pointer" viewBox="0 0 16 16">
 										<path d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z" />
 									</svg>
 									<p className="text-white">

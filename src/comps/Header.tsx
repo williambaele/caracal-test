@@ -1,9 +1,9 @@
 import classnames from 'classnames';
 import Image from 'next/image';
+
 import Col from './Layout/Col';
 
 type ColProps = {
-	children: React.ReactNode;
 	className?: string;
 };
 
@@ -31,7 +31,7 @@ const Header = ({ className }: ColProps) => {
 									<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
 								</svg>
 							</div>
-							<button className="w-fit bg-[#287DE4] rounded-full p-2 text-white text-xs">BESOIN D'AIDE ?</button>
+							<button className="w-fit bg-[#287DE4] rounded-full p-2 text-white text-xs">BESOIN D AIDE ?</button>
 						</div>
 					</div>
 				</Col>

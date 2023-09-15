@@ -1,10 +1,10 @@
 import classnames from 'classnames';
 import Image from 'next/image';
-import Container from './Layout/Container';
+
 import Col from './Layout/Col';
+import Container from './Layout/Container';
 
 type ColProps = {
-	children: React.ReactNode;
 	className?: string;
 };
 

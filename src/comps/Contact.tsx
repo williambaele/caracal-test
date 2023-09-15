@@ -1,11 +1,11 @@
 import classnames from 'classnames';
 import Image from 'next/image';
-import Container from './Layout/Container';
-import Col from './Layout/Col';
 import Link from 'next/link';
 
+import Col from './Layout/Col';
+import Container from './Layout/Container';
+
 http: type ColProps = {
-	children: React.ReactNode;
 	className?: string;
 };
 
@@ -28,7 +28,7 @@ const Contact = ({ className }: ColProps) => {
 								<p className="text-lg text-white">Commodo, cras nibh id venenatis diam ornare. Lobortis id sollicitudin ac consequat libero.</p>
 								<button className="w-full rounded-full bg-[#07205F] text-white py-6 font-light">CONTACTER NOTRE EXPERT</button>
 								<div className="px-4 mx-auto border-b border-white w-fit">
-									<p className="my-1 text-center text-white">VOIR NOS CAS D'USAGES</p>
+									<p className="my-1 text-center text-white">VOIR NOS CAS DUSAGES</p>
 								</div>
 							</div>
 						</div>
@@ -47,7 +47,7 @@ const Contact = ({ className }: ColProps) => {
 								<div className="flex items-center gap-6">
 									<button className="w-1/2 rounded-full bg-[#07205F] py-4 text-white font-light text-sm">CONTACTER NOTRE EXPERT</button>
 									<div className="px-4 mx-auto border-b border-white w-fit h-fit">
-										<p className="my-1 text-xs text-center text-white">VOIR NOS CAS D'USAGES</p>
+										<p className="my-1 text-xs text-center text-white">VOIR NOS CAS DUSAGES</p>
 									</div>
 								</div>
 							</div>
